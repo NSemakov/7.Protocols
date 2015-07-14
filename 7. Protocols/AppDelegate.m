@@ -25,9 +25,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    Jumper* jumper=[Jumper new];
-    jumper.jumpHeight=3.4f;
-    NSLog(@"jumper %f",jumper.jumpHeight);
+    Jumper* jumper1=[Jumper new];
+    jumper1.jumpHeight=3.4f;
+    jumper1.country=@"Spain";
+    //NSLog(@"jumper %f",jumper1.jumpHeight);
     Kenguru* kenguru1=[Kenguru new];
     kenguru1.jumpHeight=1.2f;
     kenguru1.country=@"Australia";
@@ -51,8 +52,33 @@
     leopard1.speed=120.f;
     leopard1.sponsorText=@"Attention!";
     
-    
-    
+    NSArray* array=@[leopard1,runner1,man1,fish1,swimmer1,kenguru1,jumper1];
+    for (id obj in array){
+        if ([[obj class] conformsToProtocol:@protocol(JumperProtocol)]) {
+            id <JumperProtocol> jumpObj=obj;
+            NSLog(@"height of jump: %f, country: %@",jumpObj.jumpHeight,jumpObj.country);
+            [jumpObj jump];
+            if ([jumpObj respondsToSelector:@selector(smile)]) {
+                [jumpObj smile];
+            }
+        }
+        if ([[obj class] conformsToProtocol:@protocol(SwimmerProtocol)]){
+            id <SwimmerProtocol> swimObj=obj;
+            NSLog(@"best time: %f, city: %@",swimObj.bestTime,swimObj.city);
+            [swimObj swim];
+            if ([swimObj respondsToSelector:@selector(handShake)]) {
+                [swimObj handShake];
+            }
+        }
+        if ([[obj class] conformsToProtocol:@protocol(RunnerProtocol)]){
+            id <RunnerProtocol> runObj=obj;
+            NSLog(@"speed: %f, sponsor's text: %@",runObj.speed,runObj.sponsorText);
+            [runObj run];
+            if ([runObj respondsToSelector:@selector(sit)]) {
+                [runObj sit];
+            }
+        }
+    }
     return YES;
 }
 
