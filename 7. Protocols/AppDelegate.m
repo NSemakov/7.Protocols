@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "Jumper.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    Jumper* jumper=[Jumper new];
+    jumper.jumpHeight=3.4f;
+    NSLog(@"jumper %f",jumper.jumpHeight);
+    
+    
+    
+    
     return YES;
 }
 

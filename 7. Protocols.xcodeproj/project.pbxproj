@@ -14,6 +14,9 @@
 		84A4FF831B55C46C00F06B34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A4FF821B55C46C00F06B34 /* Images.xcassets */; };
 		84A4FF861B55C46C00F06B34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84A4FF841B55C46C00F06B34 /* LaunchScreen.xib */; };
 		84A4FF921B55C46D00F06B34 /* ___ProtocolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FF911B55C46D00F06B34 /* ___ProtocolsTests.m */; };
+		84A4FF9F1B55C74B00F06B34 /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FF9E1B55C74B00F06B34 /* Jumper.m */; };
+		84A4FFA41B55CB0000F06B34 /* Kenguru.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFA31B55CB0000F06B34 /* Kenguru.m */; };
+		84A4FFA71B55CBB700F06B34 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFA61B55CBB700F06B34 /* Swimmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,15 @@
 		84A4FF8B1B55C46D00F06B34 /* 7. ProtocolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "7. ProtocolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4FF901B55C46D00F06B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A4FF911B55C46D00F06B34 /* ___ProtocolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___ProtocolsTests.m"; sourceTree = "<group>"; };
+		84A4FF9C1B55C4FA00F06B34 /* JumperProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumperProtocol.h; sourceTree = "<group>"; };
+		84A4FF9D1B55C74B00F06B34 /* Jumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jumper.h; sourceTree = "<group>"; };
+		84A4FF9E1B55C74B00F06B34 /* Jumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jumper.m; sourceTree = "<group>"; };
+		84A4FFA01B55C9BA00F06B34 /* SwimmerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwimmerProtocol.h; sourceTree = "<group>"; };
+		84A4FFA11B55C9C800F06B34 /* RunnerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunnerProtocol.h; sourceTree = "<group>"; };
+		84A4FFA21B55CB0000F06B34 /* Kenguru.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kenguru.h; sourceTree = "<group>"; };
+		84A4FFA31B55CB0000F06B34 /* Kenguru.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kenguru.m; sourceTree = "<group>"; };
+		84A4FFA51B55CBB700F06B34 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		84A4FFA61B55CBB700F06B34 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,15 @@
 			isa = PBXGroup;
 			children = (
 				84A4FF791B55C46C00F06B34 /* AppDelegate.h */,
+				84A4FF9C1B55C4FA00F06B34 /* JumperProtocol.h */,
+				84A4FFA01B55C9BA00F06B34 /* SwimmerProtocol.h */,
+				84A4FFA11B55C9C800F06B34 /* RunnerProtocol.h */,
+				84A4FF9D1B55C74B00F06B34 /* Jumper.h */,
+				84A4FFA21B55CB0000F06B34 /* Kenguru.h */,
+				84A4FFA31B55CB0000F06B34 /* Kenguru.m */,
+				84A4FFA51B55CBB700F06B34 /* Swimmer.h */,
+				84A4FFA61B55CBB700F06B34 /* Swimmer.m */,
+				84A4FF9E1B55C74B00F06B34 /* Jumper.m */,
 				84A4FF7A1B55C46C00F06B34 /* AppDelegate.m */,
 				84A4FF7C1B55C46C00F06B34 /* ViewController.h */,
 				84A4FF7D1B55C46C00F06B34 /* ViewController.m */,
@@ -221,7 +242,10 @@
 			files = (
 				84A4FF7E1B55C46C00F06B34 /* ViewController.m in Sources */,
 				84A4FF7B1B55C46C00F06B34 /* AppDelegate.m in Sources */,
+				84A4FFA71B55CBB700F06B34 /* Swimmer.m in Sources */,
+				84A4FF9F1B55C74B00F06B34 /* Jumper.m in Sources */,
 				84A4FF781B55C46C00F06B34 /* main.m in Sources */,
+				84A4FFA41B55CB0000F06B34 /* Kenguru.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
