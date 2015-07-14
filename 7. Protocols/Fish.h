@@ -1,5 +1,5 @@
 //
-//  Swimmer.h
+//  Fish.h
 //  7. Protocols
 //
 //  Created by Admin on 15.07.15.
@@ -8,11 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "SwimmerProtocol.h"
-@interface Swimmer : NSObject <SwimmerProtocol>
-
+@interface Fish : NSObject <SwimmerProtocol>
 @property (assign,nonatomic) CGFloat bestTime;
 @property (strong,nonatomic) NSString* city;
-
-
 
 @end

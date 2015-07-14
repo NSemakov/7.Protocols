@@ -17,6 +17,10 @@
 		84A4FF9F1B55C74B00F06B34 /* Jumper.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FF9E1B55C74B00F06B34 /* Jumper.m */; };
 		84A4FFA41B55CB0000F06B34 /* Kenguru.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFA31B55CB0000F06B34 /* Kenguru.m */; };
 		84A4FFA71B55CBB700F06B34 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFA61B55CBB700F06B34 /* Swimmer.m */; };
+		84A4FFAA1B55CC2400F06B34 /* Fish.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFA91B55CC2400F06B34 /* Fish.m */; };
+		84A4FFAD1B55CC8900F06B34 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFAC1B55CC8900F06B34 /* Runner.m */; };
+		84A4FFB01B55CCE000F06B34 /* Leopard.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFAF1B55CCE000F06B34 /* Leopard.m */; };
+		84A4FFB31B55CD5200F06B34 /* MarathonMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A4FFB21B55CD5200F06B34 /* MarathonMan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,14 @@
 		84A4FFA31B55CB0000F06B34 /* Kenguru.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kenguru.m; sourceTree = "<group>"; };
 		84A4FFA51B55CBB700F06B34 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
 		84A4FFA61B55CBB700F06B34 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		84A4FFA81B55CC2400F06B34 /* Fish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fish.h; sourceTree = "<group>"; };
+		84A4FFA91B55CC2400F06B34 /* Fish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fish.m; sourceTree = "<group>"; };
+		84A4FFAB1B55CC8900F06B34 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		84A4FFAC1B55CC8900F06B34 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		84A4FFAE1B55CCE000F06B34 /* Leopard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leopard.h; sourceTree = "<group>"; };
+		84A4FFAF1B55CCE000F06B34 /* Leopard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Leopard.m; sourceTree = "<group>"; };
+		84A4FFB11B55CD5200F06B34 /* MarathonMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarathonMan.h; sourceTree = "<group>"; };
+		84A4FFB21B55CD5200F06B34 /* MarathonMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarathonMan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,16 +106,24 @@
 			isa = PBXGroup;
 			children = (
 				84A4FF791B55C46C00F06B34 /* AppDelegate.h */,
+				84A4FF7A1B55C46C00F06B34 /* AppDelegate.m */,
 				84A4FF9C1B55C4FA00F06B34 /* JumperProtocol.h */,
 				84A4FFA01B55C9BA00F06B34 /* SwimmerProtocol.h */,
 				84A4FFA11B55C9C800F06B34 /* RunnerProtocol.h */,
 				84A4FF9D1B55C74B00F06B34 /* Jumper.h */,
+				84A4FF9E1B55C74B00F06B34 /* Jumper.m */,
 				84A4FFA21B55CB0000F06B34 /* Kenguru.h */,
 				84A4FFA31B55CB0000F06B34 /* Kenguru.m */,
 				84A4FFA51B55CBB700F06B34 /* Swimmer.h */,
 				84A4FFA61B55CBB700F06B34 /* Swimmer.m */,
-				84A4FF9E1B55C74B00F06B34 /* Jumper.m */,
-				84A4FF7A1B55C46C00F06B34 /* AppDelegate.m */,
+				84A4FFB11B55CD5200F06B34 /* MarathonMan.h */,
+				84A4FFB21B55CD5200F06B34 /* MarathonMan.m */,
+				84A4FFA81B55CC2400F06B34 /* Fish.h */,
+				84A4FFA91B55CC2400F06B34 /* Fish.m */,
+				84A4FFAB1B55CC8900F06B34 /* Runner.h */,
+				84A4FFAC1B55CC8900F06B34 /* Runner.m */,
+				84A4FFAE1B55CCE000F06B34 /* Leopard.h */,
+				84A4FFAF1B55CCE000F06B34 /* Leopard.m */,
 				84A4FF7C1B55C46C00F06B34 /* ViewController.h */,
 				84A4FF7D1B55C46C00F06B34 /* ViewController.m */,
 				84A4FF7F1B55C46C00F06B34 /* Main.storyboard */,
@@ -240,10 +260,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A4FFB31B55CD5200F06B34 /* MarathonMan.m in Sources */,
+				84A4FFB01B55CCE000F06B34 /* Leopard.m in Sources */,
 				84A4FF7E1B55C46C00F06B34 /* ViewController.m in Sources */,
+				84A4FFAA1B55CC2400F06B34 /* Fish.m in Sources */,
 				84A4FF7B1B55C46C00F06B34 /* AppDelegate.m in Sources */,
 				84A4FFA71B55CBB700F06B34 /* Swimmer.m in Sources */,
 				84A4FF9F1B55C74B00F06B34 /* Jumper.m in Sources */,
+				84A4FFAD1B55CC8900F06B34 /* Runner.m in Sources */,
 				84A4FF781B55C46C00F06B34 /* main.m in Sources */,
 				84A4FFA41B55CB0000F06B34 /* Kenguru.m in Sources */,
 			);

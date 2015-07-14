@@ -8,6 +8,13 @@
 
 #import "AppDelegate.h"
 #import "Jumper.h"
+#import "Kenguru.h"
+#import "Swimmer.h"
+#import "MarathonMan.h"
+#import "Fish.h"
+#import "Runner.h"
+#import "Leopard.h"
+
 @interface AppDelegate ()
 
 @end
@@ -21,7 +28,28 @@
     Jumper* jumper=[Jumper new];
     jumper.jumpHeight=3.4f;
     NSLog(@"jumper %f",jumper.jumpHeight);
-    
+    Kenguru* kenguru1=[Kenguru new];
+    kenguru1.jumpHeight=1.2f;
+    kenguru1.country=@"Australia";
+    Swimmer* swimmer1=[Swimmer new];
+    swimmer1.bestTime=15.4f;
+    swimmer1.city=@"Saint-Petersburg";
+    Fish* fish1=[Fish new];
+    fish1.bestTime=10.f;
+    fish1.city=@"London";
+    MarathonMan* man1=[MarathonMan new];
+    man1.country=@"Russia";
+    man1.bestTime=56.4f;
+    man1.city=@"Moscow";
+    man1.jumpHeight=2.f;
+    man1.speed=30.4f;
+    man1.sponsorText=@"British Airways";
+    Runner* runner1=[Runner new];
+    runner1.sponsorText=@"H20";
+    runner1.speed=40.f;
+    Leopard* leopard1=[Leopard new];
+    leopard1.speed=120.f;
+    leopard1.sponsorText=@"Attention!";
     
     
     
